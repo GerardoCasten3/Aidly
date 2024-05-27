@@ -1,0 +1,191 @@
+{
+    "intents": [
+        {
+            "tag": "saludo",
+            "patterns": ["Hola", "Buenos días", "Buenas tardes", "Buenas noches", "Hey", "Qué tal?", "Hay alguien?", "Hi", "Hello"],
+            "responses": ["Hola, soy Aidly, ¿en qué puedo ayudarte?",
+                         "¡Hola!, mi nombre es Aidly, ¿en qué puedo ayudarte?",
+                         "¡Hola! ¡Cómo me alegra verte!, soy Aidly, ¿en qué puedo ayudarte?",
+                         "¡Hola! Me llamo Aidly, ¿tienes algún problema?",
+                         "¡Hola, soy Aidly, ¿necesitas ayuda?"]
+        },
+        {
+            "tag": "saludo_2",
+            "patterns": ["Cómo estás?", "Cómo te encuentras?", "Qué tal?", "Cómo va todo?", "Cómo te sientes?"],
+            "responses": ["Me encuentro bien, gracias por preguntar.",
+                         "Estoy de maravilla, gracias por preguntar.",
+                         "¡Me siento muy bien, gracias!.",
+                         "Todo bien por aquí.",
+                         "¡Todo está genial!."]
+        },
+        {
+            "tag": "despedida",
+            "patterns": ["Adiós", "Hasta luego", "Hasta pronto", "Nos vemos", "Chao", "Bye", "Hasta la próxima", "Hasta mañana"],
+            "responses": ["¡Hasta luego, espero haber sido de ayuda!",
+                         "¡Adiós, ojalá haya sido de ayuda!",
+                         "¡Hasta la próxima, aquí estaré si necesitas algo más!",
+                         "¡Hasta luego, no dudes en volver si necesitas más ayuda!",
+                         "¡Hasta la próxima, estaré aquí cuando me necesites!"]
+        },
+        {
+            "tag": "agradecimiento",
+            "patterns": ["Gracias", "Muchas gracias", "Gracias por tu ayuda", "Gracias por todo", "Gracias por la información", "Gracias por la asistencia"],
+            "responses": ["¡De nada! Estoy aquí para ayudarte.",
+                          "No hay de qué, ¿necesitas ayuda en algo más?",
+                          "¡No hay problema! Estoy aquí para ayudarte.",
+                          " Gracias a ti por usar nuestros servicios.",
+                          "¡Siempre a tu disposición! ¿Hay algo más en lo que pueda asistirte?",
+                          "Estoy feliz de poder ayudarte. ¿Hay algo más en lo que pueda asistirte?"
+                        ]
+        },
+        {
+            "tag": "compras",
+            "patterns": ["Quiero comprar", "Quiero adquirir", "Quiero adquirir un producto", "Quiero comprar un producto", "Quiero adquirir un servicio", "Quiero comprar un servicio", "Me gustaría ver el catálogo", "¿Que productos tienen?"],
+            "responses": ["Claro, ¿ya sabes que producto te gustaria comprar? Aquí te dejo nuestro catálogo: https://www.ejemplo.com/catalogo",
+                          "¡Genial! ¿Ya sabes que producto te gustaría comprar? Aquí te dejo nuestro catálogo: https://www.ejemplo.com/catalogo",
+                          "¡Perfecto! ¿Ya sabes que producto te gustaría comprar? Aquí te dejo nuestro catálogo: https://www.ejemplo.com/catalogo",
+                          "¡Excelente! ¿Ya sabes que producto te gustaría comprar? Aquí te dejo nuestro catálogo: https://www.ejemplo.com/catalogo",
+                          "¡Con gusto! Puedes ver todos nuestros productos en el catálogo aquí: https://www.ejemplo.com/catalogo",
+                          "¡Hola! Te invito a explorar nuestro catálogo aquí: https://www.ejemplo.com/catalogo",
+                          "¡Encantado de ayudarte con tus compras! Aquí puedes ver nuestro catálogo: https://www.ejemplo.com/catalogo",
+                          "Para ver todos los productos y servicios que ofrecemos, visita nuestro catálogo: https://www.ejemplo.com/catalogo"
+                        ]
+        },
+        {
+            "tag": "compras_2",
+            "patterns": ["¿Cómo puedo realizar una compra?", "¿Cómo puedo adquirir un producto?", "¿Cómo puedo comprar un producto?", "¿Cómo puedo adquirir un servicio?", "¿Cómo puedo comprar un servicio?", "¿Cómo puedo hacer un pedido?", "¿Cómo puedo comprar?"],
+            "responses": ["Para realizar tu compra, debes seleccionar el artículo que te guste, agregarlo al carrito y seguir los pasos para finalizar la compra.",
+                          "Para adquirir un producto, debes agregarlo al carrito, seleccionar la forma de pago, agregar la dirección de entrega y finalizar la compra. Nosotros nos encargamos del resto.",
+                          "Es muy sencillo, solo elige el producto que deseas, añádelo al carrito, y sigue las instrucciones para completar tu compra.",
+                          "Puedes comprar un producto seleccionándolo y añadiéndolo al carrito. Luego, sigue las instrucciones para el pago y la entrega.",
+                          "Para comprar un servicio, elige el que te interese, agrégalo al carrito, y sigue los pasos para completar la transacción.",
+                          "Para hacer un pedido, selecciona los productos que deseas, agréguelos al carrito, elige tu método de pago, ingresa tu dirección de entrega, y finaliza la compra.",
+                          "Selecciona el artículo que deseas comprar, agrégalo al carrito de compras, elige tu método de pago, y proporciona la información necesaria para la entrega.",
+                          "Para realizar una compra, navega por nuestro catálogo, añade el producto que deseas al carrito, y sigue los pasos para completar tu compra."
+                        ]
+        },
+        {
+            "tag": "pagos",
+            "patterns": ["¿Qué métodos de pago aceptan?", "¿Cuáles son las formas de pago?", "¿Qué tarjetas aceptan?", "¿Aceptan tarjetas de crédito?", "¿Aceptan tarjetas de débito?", "¿Aceptan PayPal?", "¿Aceptan transferencias bancarias?", "¿Cómo puedo pagar?", "¿Cuál es el proceso de pago?", "Métodos de pago", "Formas de pago"],
+            "responses": ["Todas las tarjetas de débito y crédito son bienvenidas, también aceptamos Paypal y transferencias bancarias. Para éste último consulta con un asesor de ventas.",
+                          "Aceptamos tarjetas de débito y crédito, PayPal y transferencias bancarias. Para transferencias, por favor consulta con un asesor de ventas.",
+                          "Puedes pagar con tarjetas de débito, crédito, PayPal y también mediante transferencias bancarias. Para más detalles sobre las transferencias, habla con uno de nuestros asesores.",
+                          "Aceptamos una variedad de métodos de pago: tarjetas de débito, tarjetas de crédito, PayPal y transferencias bancarias. Consulta con un asesor para proceder con una transferencia bancaria.",
+                          "Los métodos de pago disponibles incluyen tarjetas de débito, tarjetas de crédito, PayPal y transferencias bancarias. Para transferencias bancarias, por favor, ponte en contacto con un asesor de ventas.",
+                          "Puedes utilizar tarjetas de crédito, tarjetas de débito, PayPal o hacer una transferencia bancaria para realizar tu pago. Contacta a un asesor de ventas para más detalles sobre las transferencias."
+                         ]
+        },
+        {
+            "tag": "pagos_2",
+            "patterns": ["¿Es seguro pagar en línea?", "¿Es seguro comprar en su sitio web?", "¿Es seguro realizar pagos en su plataforma?", "¿Es seguro pagar con tarjeta de crédito?", "¿Es seguro pagar con tarjeta de débito?", "¿Es seguro pagar con PayPal?", "¿Es seguro hacer transferencias bancarias?"],
+            "responses": ["Sí, es seguro. Utilizamos tecnología de encriptación para proteger tus datos",
+                          "¡Claro que sí! Nuestro sitio web es seguro y utilizamos tecnología de encriptación para proteger tus datos.",
+                          "Sí, es seguro. Nuestro sitio web cuenta con medidas de seguridad para proteger tus datos personales y financieros."
+                        ]
+        },
+        {
+            "tag": "envios",
+            "patterns": ["¿Hacen envíos?", "¿Cuál es el costo de envío?", "¿Cuánto tarda en llegar el envío?", "¿Dónde envían?", "¿Envían a mi país?", "¿Envían a domicilio?", "¿Cuál es el tiempo de entrega?", "Información de envios"],
+            "responses": ["Hacemos envíos a toda Latinoamérica, incluidos México, Argentina, Chile, Colombia, Perú, entre otros. El costo y tiempo de entrega varían según la ubicación. Se mostrarán antes de finalizar tu compra.",
+                          "Sí, hacemos envíos a varios países de Latinoamérica como México, Argentina, Chile, Colombia, Perú y más. Los costos y tiempos de entrega se calculan al finalizar la compra según tu ubicación.",
+                          "Realizamos envíos a toda Latinoamérica. El costo de envío y el tiempo de entrega dependen de tu ubicación específica y se mostrarán antes de completar tu compra.",
+                          "Enviamos a muchos países de Latinoamérica, incluyendo México, Argentina, Chile, Colombia y Perú. Los costos y tiempos de entrega varían y se detallan al finalizar la compra.",
+                          "Sí, enviamos a domicilio en varios países de Latinoamérica. Los costos de envío y los tiempos de entrega dependen de la ubicación y se indicarán antes de finalizar tu compra.",
+                          "Hacemos envíos a muchos países en Latinoamérica. El costo y el tiempo de entrega se calcularán según tu dirección y se mostrarán antes de que completes tu compra."
+          ]
+        },
+        {
+            "tag": "cancelaciones",
+            "patterns": ["¿Puedo cancelar mi pedido?", "¿Cómo cancelo mi compra?", "¿Qué pasa si quiero cancelar mi pedido?", "¿Qué debo hacer si quiero cancelar mi pedido?", "Quiero cancelar una compra"],
+            "responses": ["Si deseas cancelar un pedido, contacta a nuestro equipo de atención al cliente y ten a la mano los siguientes datos: número de pedido, nombre del producto y tu información de contacto. Aquí esta nuestro número de contacto: +1-800-123-4567",
+                          "Para cancelar tu compra, por favor, contacta a nuestro equipo de atención al cliente. Necesitarás proporcionar el número de pedido, nombre del producto y tu información de contacto. Puedes llamarnos al +1-800-123-4567",
+                          "Si necesitas cancelar un pedido, comunícate con nuestro servicio de atención al cliente. Asegúrate de tener a mano tu número de pedido, nombre del producto y tu información de contacto. Llámanos al +1-800-123-4567",
+                          "Para cancelar un pedido, ponte en contacto con nuestro equipo de atención al cliente. Ten listo tu número de pedido, nombre del producto y tu información de contacto. Nuestro número de contacto es +1-800-123-4567",
+                          "Si deseas cancelar tu pedido, contacta a nuestro equipo de atención al cliente con tu número de pedido, nombre del producto y tu información de contacto. Puedes hacerlo llamando al +1-800-123-4567"
+                        ]
+        },
+        {
+            "tag": "devoluciones",
+            "patterns": ["¿Puedo devolver un producto?", "¿Cómo hago una devolución?", "¿Qué pasa si quiero devolver un producto?", "¿Qué debo hacer si quiero devolver un producto?", "Quiero devolver un producto"],
+            "responses": ["Si deseas devolver un producto, ten en cuenta que la devolución del dinero estará sujeta a las condiciones del producto. Para proceder con una devolución, contacta a nuestro equipo de atención al cliente. Aquí esta nuestro número de contacto: +1-800-123-4567",
+                          "Para devolver un producto, ponte en contacto con nuestro equipo de atención al cliente. Ten en cuenta que la devolución del dinero estará sujeta a las políticas de devolución del producto. Puedes llamarnos al +1-800-123-4567",
+                          "Si necesitas devolver un producto, por favor comunícate con nuestro servicio de atención al cliente. Ten en cuenta que la devolución del dinero puede estar sujeta a ciertas condiciones. Nuestro número de contacto es +1-800-123-4567",
+                          "Para proceder con una devolución, contacta a nuestro equipo de atención al cliente. Recuerda que la devolución del dinero estará sujeta a las condiciones del producto. Puedes llamarnos al +1-800-123-4567",
+                          "Si deseas devolver un producto, por favor comunícate con nuestro equipo de atención al cliente. La devolución del dinero estará sujeta a las políticas de devolución del producto. Nuestro número de contacto es +1-800-123-4567"
+                         ]
+        },
+        {
+            "tag": "consulta_pedido",
+            "patterns": ["¿Cómo puedo consultar mi pedido?", "¿Cómo puedo rastrear mi pedido?", "¿Cómo puedo saber el estado de mi pedido?", "¿Cómo puedo saber si mi pedido ha sido enviado?", "¿Cómo puedo saber si mi pedido ha sido entregado?", "¿Cómo puedo saber si mi pedido ha sido procesado?", "Estado de mi pedido", "Rastreo de pedido"],
+            "responses": ["Para consultar el estado de tu pedido, escribe 'Pedido' y el número de tu pedido. También te enviaremos actualizaciones por correo electrónico.",
+                          "Puedes rastrear tu pedido ingresando 'Pedido' y el número de tu pedido. Además, te enviaremos actualizaciones por correo electrónico.",
+                          "Para saber el estado de tu pedido, escribe 'Pedido' y el número de tu pedido. También te enviaremos notificaciones por correo electrónico.",
+                          "Para rastrear tu pedido, escribe 'Pedido' y el número de tu pedido. Además, recibirás actualizaciones por correo electrónico.",
+                          "Para saber si tu pedido ha sido enviado o entregado, escribe 'Pedido' y el número de tu pedido. También te enviaremos notificaciones por correo electrónico.",
+                          "Para consultar el estado de tu pedido, escribe 'Pedido' y el número de tu pedido. También te enviaremos actualizaciones por correo electrónico."
+                        ]
+        },
+        {
+            "tag": "soporte_tecnico",
+            "patterns": ["Tengo un problema con mi cuenta", "Tengo un problema con mi pedido", "No puedo iniciar sesión", "No puedo agregar productos al carrito", "No puedo agregar un método de pago", "No puedo agregar una dirección nueva", "Quisiera contactar a soporte", "Tengo problemas con la página web", "Tengo problemas con la aplicación", "Tengo problemas con el pago", "Problema"],
+            "responses": ["Lamento escuchar que tienes problemas. Por favor, contáctanos a través de nuestro chat en vivo, comunícate con nosotros a través de nuestro número de contacto +1-800-123-4567 o envíanos un correo electrónico a soporte@dtechshop.mx",
+                          "Entiendo tu frustración. Para resolver tus problemas, te recomendaría contactar a nuestro equipo de soporte. Puedes hacerlo a través de nuestro chat en vivo en el sitio web, por teléfono al +1-800-123-4567 o enviándonos un correo electrónico a soporte@dtechshop.mx",
+                          "No te preocupes, estamos aquí para ayudarte. Por favor, ponte en contacto con nuestro equipo de soporte a través de nuestro chat en vivo, por teléfono al +1-800-123-4567 o enviándonos un correo electrónico a soporte@dtechshop.mx",
+                          "Estoy aquí para ayudarte a resolver tus problemas técnicos. Para recibir asistencia, te sugiero que te pongas en contacto con nuestro equipo de soporte. Puedes hacerlo a través de nuestro chat en vivo en el sitio web, por teléfono al +1-800-123-4567 o enviándonos un correo electrónico a soporte@dtechshop.mx",
+                          "Comprendo tu situación. Para obtener ayuda con tus problemas técnicos, por favor contacta a nuestro equipo de soporte. Puedes hacerlo a través de nuestro chat en vivo en el sitio web, por teléfono al +1-800-123-4567 o enviándonos un correo electrónico a soporte@dtechshop.mx"
+                         ]
+        },
+        {
+            "tag": "garantia",
+            "patterns": ["¿Qué garantía tienen los productos?", "¿Cuál es la garantía de los productos?", "¿Los productos tienen garantía?", "¿Qué cubre la garantía?", "¿Cómo puedo hacer válida la garantía?", "¿Qué hago si mi producto está defectuoso?", "¿Qué hago si mi producto llega dañado?", "Garantia"],
+            "responses": ["Todos nuestros productos cuentan con garantía de fábrica. Si tienes algún problema con tu producto, por favor contáctanos para hacer válida la garantía. Aquí esta nuestro número de contacto: +1-800-123-4567",
+                          "La garantía de nuestros productos varía según el fabricante. Si tienes algún problema con tu producto, por favor contáctanos para hacer válida la garantía. Puedes llamarnos al +1-800-123-4567",
+                          "Nuestros productos cuentan con garantía de fábrica. Si necesitas hacer válida la garantía, por favor contáctanos. Aquí esta nuestro número de contacto: +1-800-123-4567",
+                          "Todos nuestros productos tienen garantía de fábrica. Si tu producto presenta algún defecto, por favor contáctanos para hacer válida la garantía. Puedes llamarnos al +1-800-123-4567",
+                          "La garantía de nuestros productos cubre defectos de fabricación. Si necesitas hacer válida la garantía, por favor contáctanos. Aquí esta nuestro número de contacto: +1-800-123-4567"
+                        ]
+        },
+        {
+            "tag": "horario",
+            "patterns": ["¿Cuál es su horario de atención?", "¿A qué hora abren?", "¿A qué hora cierran?", "¿Cuál es su horario de trabajo?", "¿Cuál es su horario de servicio?", "Horario de atención", "Horario"],
+            "responses": ["Nuestro horario de atención es de lunes a viernes de 9:00 a 18:00 horas. Si necesitas ayuda fuera de este horario, por favor déjanos un mensaje y te responderemos a la brevedad.",
+                          "Nuestro horario de atención es de lunes a viernes de 9:00 a 18:00 horas. Si necesitas asistencia fuera de este horario, por favor déjanos un mensaje y te responderemos lo antes posible.",
+                          "Estamos disponibles de lunes a viernes de 9:00 a 18:00 horas. Si necesitas ayuda fuera de este horario, por favor déjanos un mensaje y te responderemos a la brevedad."
+                        ]
+        },
+        {
+            "tag": "informacion",
+            "patterns": ["¿Dónde están ubicados?", "¿Cuál es su dirección?", "¿Cómo puedo contactarlos?", "¿Cuál es su número de teléfono?", "¿Cuál es su correo electrónico?", "¿Cuál es su página web?", "Información de contacto", "Contacto"],
+            "responses": ["Por ahora, solo somos una empresa de venta en línea. Puedes contactarnos a través de nuestro número de teléfono +1-800-123-4567 o por nuestro correo electrónico: ventas@dtechshop.mx",
+                          "Somos una empresa de venta en línea y no tenemos una ubicación física. Sin embargo, puedes comunicarte con nosotros llamando al +1-800-123-4567 o enviándonos un correo electrónico a ventas@dtechshop.mx",
+                          "No contamos con una ubicación física en este momento, pero estamos disponibles para ayudarte en línea. Puedes comunicarte con nosotros llamando al +1-800-123-4567 o enviándonos un correo electrónico a ventas@dtechshop.mx",
+                          "Estamos ubicados exclusivamente en línea en este momento. Si necesitas contactarnos, puedes llamarnos al +1-800-123-4567 o enviarnos un correo electrónico a ventas@dtechshop.mx",
+                          "Como empresa de venta en línea, no tenemos una ubicación física. Sin embargo, puedes contactarnos llamando al +1-800-123-4567 o enviándonos un correo electrónico a ventas@dtechshop.mx"
+                        ]
+        },
+        {
+            "tag": "politicas",
+            "patterns": ["¿Cuáles son sus políticas de privacidad?", "¿Cuáles son sus términos y condiciones?", "¿Cuál es su política de devoluciones?", "¿Cuál es su política de envíos?", "¿Cuál es su política de garantía?", "Políticas"],
+            "responses": ["Puedes encontrar nuestras políticas de privacidad, términos y condiciones, devoluciones, envíos y garantía en nuestra página web. Si tienes alguna pregunta, no dudes en contactarnos.",
+                          "Nuestras políticas de privacidad, términos y condiciones, devoluciones, envíos y garantía están disponibles en nuestra página web. Si necesitas más información, por favor contáctanos.",
+                          "Para conocer nuestras políticas de privacidad, términos y condiciones, devoluciones, envíos y garantía, visita nuestra página web. Si tienes alguna pregunta, no dudes en contactarnos."
+                        ]
+        },
+        {
+            "tag": "promociones",
+            "patterns": ["¿Tienen promociones?", "¿Cuáles son las promociones vigentes?", "¿Qué ofertas tienen?", "¿Cuáles son los descuentos actuales?", "¿Tienen cupones de descuento?", "Promociones", "Ofertas"],
+            "responses": ["Sí, tenemos promociones y ofertas especiales. Puedes encontrarlas en nuestra página de inicio o suscribiéndote a nuestro boletín de noticias para recibir notificaciones sobre descuentos y promociones.",
+                          "Tenemos promociones y ofertas especiales disponibles. Puedes consultarlas en nuestra página de inicio o suscribirte a nuestro boletín de noticias para recibir información sobre descuentos y promociones.",
+                          "¡Claro! Tenemos promociones y ofertas especiales. Puedes verlas en nuestra página de inicio o suscribirte a nuestro boletín de noticias para recibir notificaciones sobre descuentos y promociones."
+                        ]
+        },
+        {
+          "tag": "faq",
+          "patterns": ["¿Dónde puedo encontrar las preguntas frecuentes?", "¿Existe algún apartado para preguntas frecuentes?", "FAQ", "Preguntas frecuentes", "Dudas comunes"],
+          "responses": ["Las preguntas frecuentes se encuentran en nuestra página web, en la sección de 'Ayuda' o 'Preguntas Frecuentes'. Si no encuentras la respuesta a tu pregunta, no dudes en contactarnos.",
+                        "Puedes encontrar las preguntas frecuentes en nuestra página web, en la sección de 'Ayuda' o 'Preguntas Frecuentes'. Si no encuentras la respuesta que buscas, por favor contáctanos.",
+                        "Todas las preguntas frecuentes las puedes encontrar en los apartados de 'Ayuda' o 'Preguntas Frecuentes' en nuestra página web. Si tienes alguna duda adicional, no dudes en contactarnos."
+                      ]
+        }
+    ]
+}
